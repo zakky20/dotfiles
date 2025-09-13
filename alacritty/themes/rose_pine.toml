@@ -1,0 +1,39 @@
+[colors.primary]
+background = '#f4e8e1'   # Light background
+foreground = '#3a3a3a'   # Darker text for better contrast
+
+[colors.cursor]
+text = '#3a3a3a'   # Darker text to contrast with lighter background
+cursor = '#9c94a3' # Softer cursor color
+
+[colors.vi_mode_cursor]
+text = '#3a3a3a'
+cursor = '#9c94a3'
+
+[colors.selection]
+text = '#3a3a3a'   # Dark text for selection
+background = '#d1c9d4'  # Lighter selection background
+
+[colors.normal]
+black = '#a1a1a1'   # Lighter black
+red = '#f28d94'     # Soft rose pink
+green = '#5ca8b7'   # Muted teal
+yellow = '#f7da8d'  # Soft pastel yellow
+blue = '#aad3e6'    # Light pastel blue
+magenta = '#e0c3f1' # Soft lavender
+cyan = '#f4d1d1'    # Light pinkish cyan
+white = '#3a3a3a'   # Darker text for readability
+
+[colors.bright]
+black = '#d3d3d3'   # Lightened black
+red = '#f28d94'     # Same as normal red
+green = '#5ca8b7'   # Same as normal green
+yellow = '#f7da8d'  # Same as normal yellow
+blue = '#aad3e6'    # Same as normal blue
+magenta = '#e0c3f1' # Same as normal magenta
+cyan = '#f4d1d1'    # Same as normal cyan
+white = '#3a3a3a'   # Same as normal white
+
+[colors.hints]
+start = {foreground = '#b1a8b9', background = '#f2e7e1'}  # Lighter hint foreground and background
+end = { foreground = '#a1a1a1', background = '#f2e7e1'}    # Same as start but softer end hints

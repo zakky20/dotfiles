@@ -1,0 +1,28 @@
+# Colors (Decay)
+
+# Default colors
+[colors.primary]
+background = '#101419'
+foreground = '#b6beca'
+
+# Normal colors
+[colors.normal]
+black   = '#1c252c'
+red     = '#e05f65'
+green   = '#78dba9'
+yellow  = '#f1cf8a'
+blue    = '#70a5eb'
+magenta = '#c68aee'
+cyan    = '#74bee9'
+white   = '#b6beca'
+
+# Bright colors
+[colors.bright]
+black   = '#565f89'
+red     = '#e05f65'
+green   = '#78dba9'
+yellow  = '#f1cf8a'
+blue    = '#70a5eb'
+magenta = '#c68aee'
+cyan    = '#74bee9'
+white   = '#ffffff'
