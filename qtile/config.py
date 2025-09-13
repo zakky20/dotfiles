@@ -8,11 +8,9 @@ mod = "mod4"
 terminal = "alacritty"
 browser = "firefox"
 neovim = "nvim"
-discord = "discord"
-anydesk = "anydesk"
+discord = "discord""
 music = "spotify"
 files = "thunar"
-screenshot = "flameshot gui"
 emacs = "emacsclient -c -a 'emacs'"
 wallpaperscript = "/usr/local/bin/randomwallpaper"
 bookmarks = "/usr/local/bin/bookmarks"
@@ -64,7 +62,6 @@ keys = [
     Key([mod], "x", lazy.spawn(files), desc="File manager"),
     Key([mod], "c", lazy.spawn(discord), desc="discord"),
     Key([mod], "s", lazy.spawn(music), desc="spotify"),
-    Key([mod], "a", lazy.spawn(anydesk), desc="anydesk"),
     Key([mod], "e", lazy.spawn(emacs), desc="emacs"),
     Key([mod], "g", lazy.spawn(wallpaperscript), desc="random wallpaper"),
     Key([mod], "b", lazy.spawn(bookmarks), desc="bookmarks script"),
@@ -173,12 +170,26 @@ extension_defaults = widget_defaults.copy()
 
 def init_widgets_list():
     widgets_list = [
-        widget.Spacer(length = 0),
+        widget.Spacer(length = 5),
         widget.Prompt(
                  font = "Iosevka Nerd Font Bold",
                  fontsize=14,
                  foreground = colors[1]
         ),
+         widget.Image(
+                filename = "~/.config/qtile/icons/gentoo.png",
+                scale = "false",
+                background = colors[0],
+                mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn("qtilekeys-yad")},
+        ),
+        widget.TextBox(
+                 text = '',
+                 font = "Iosevka Nerd Font Bold",
+                 foreground = colors[2],
+                 background = colors[0],
+                 padding = 0,
+                 fontsize = 25,
+                 ),
         widget.GroupBox(
                  # fontsize = 16,
                  margin_y = 3,
@@ -338,9 +349,9 @@ def init_widgets_screen2():
     return widgets_screen2
 
 def init_screens():
-    return [Screen(top=bar.Bar(widgets=init_widgets_screen1(), margin=[0, 0, 0, 0], size=25)),
-            Screen(top=bar.Bar(widgets=init_widgets_screen2(), margin=[0, 0, 0, 0], size=25)),
-            Screen(top=bar.Bar(widgets=init_widgets_screen2(), margin=[0, 0, 0, 0], size=25))]
+    return [Screen(top=bar.Bar(widgets=init_widgets_screen1(), margin=[0, 0, 1, 0], size=24)),
+            Screen(top=bar.Bar(widgets=init_widgets_screen2(), margin=[0, 0, 1, 0], size=24)),
+            Screen(top=bar.Bar(widgets=init_widgets_screen2(), margin=[0, 0, 1, 0], size=24))]
 
 if __name__ in ["config", "__main__"]:
     screens = init_screens()
