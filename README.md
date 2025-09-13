@@ -1,2 +1,0 @@
-# qtiledots
-qtile dots
