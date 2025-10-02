@@ -1,0 +1,120 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "display": {
+        "separator": " ",
+    },
+    "modules": [
+        {
+           "type": "title",
+           "key": " ",
+            "color": {
+                "user": "white",
+                "at": "white",
+                "host": "white"
+            },
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "󱄅 ",
+            "keyColor": "cyan",
+            "format": "{3}"
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "cyan",
+            // "format": "{2}"
+        },
+        {
+            "type": "packages",
+            "key": "󰆧 ",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "shell",
+            "key": "󱆃 ",
+            "keyColor": "cyan"
+        },
+        "break",
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "cyan"
+        },
+         {
+            "type": "lm",
+            "key": "󰍂 ",
+            "keyColor": "cyan"
+        },
+        "break",
+        {
+            "type": "cpu",
+            "key": "󰻠 ",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "gpu",
+            "key": " ",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "memory",
+            "key": " ",
+            "keyColor": "cyan"
+        },
+        // {
+        //     "type": "command",
+        //     "shell": "/bin/sh",
+        //     "key": "󱇯 ",
+        //     "keyColor": "cyan",
+        //     "text": "/home/zakky/.config/fastfetch/generation.sh",
+        // },
+        {
+            "type": "uptime",
+            "key": " ",
+             "keyColor": "cyan"
+        },
+        // {
+        //       "type": "command",
+        //       "key": "OS Age",
+        //       "keyColor": "cyan",
+        //       "text": "/home/zakky/.config/fastfetch/osage.sh"
+        //  },
+	"break",
+        {
+            "type": "command",
+            "shell": "/bin/sh",
+            "key": " ",
+            "text": "echo $(/home/zakky/.config/fastfetch/progress.sh) days done",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "command",
+            "shell": "/bin/sh",
+            "key": " ",
+            "text": "/home/zakky/.config/fastfetch/difference.sh",
+            "keyColor": "cyan"
+        },
+                {
+            "type": "command",
+            "shell": "/bin/sh",
+            "key": " ",
+            "text": "/home/zakky/.config/fastfetch/update.sh",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "command",
+            "shell": "/bin/sh",
+            "key": " ",
+            "text": "/home/zakky/.config/fastfetch/backup.sh",
+            "keyColor": "cyan"
+        },
+      "break",
+    ]
+}
