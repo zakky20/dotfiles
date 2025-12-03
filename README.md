@@ -14,26 +14,19 @@ Welcome to my dotfiles built for efficiency and aesthetics.
 
 To get started with this setup, follow these steps:
 
-1. **Install NixOS**: If you haven't already installed NixOS, follow the [NixOS Installation Guide](https://nixos.org/manual/nixos/stable/#sec-installation) for detailed instructions.
+1. **Install Gentoo Or Other Distro**: If you haven't already installed a distro, follow the documentation from the distro's wiki for detailed instructions.
+
 2. **Clone the Repository**:
 
 	```bash
-    git clone https://github.com/zakky20/nixos-configs
-    cd nixos-configs
+    git clone https://github.com/zakky20/dotfiles.git
+    cd dotfiles
     ```
 	
-3. **Put your `hardware-configuration.nix` file there**:
+3. ** Move the folders to `~/.config` **:
 
     ```bash
-    cp /etc/nixos/hardware-configuration.nix ./
-    ```
-
-4. **Edit the `flake.nix` with your user, description, etc..**
-
-5. **Rebuild**:
-
-	```bash
-    sudo nixos-rebuild switch --flake ~/NixOS#nixos (replace #nixos with ur hostname)
+    sudo mv * ~/.config/
     ```
 	
 ## 🤝 Contributions
