@@ -1,0 +1,121 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    
+    "display": {
+        "separator": " ",
+    },
+
+    "logo": {
+        "type": "auto",
+        "padding": {
+            "top": 3,
+        },
+    },
+
+    "modules": [
+        {
+           "type": "title",
+           "key": " ",
+            "color": {
+                "user": "white",
+                "at": "white",
+                "host": "white"
+            },
+        },
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "magenta",
+            "format": "{3}"
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "magenta",
+        },
+        {
+            "type": "packages",
+            "key": " ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "magenta",
+        },
+        "break",
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "magenta"
+        },
+        "break",
+        {
+            "type": "display",
+            "key": "󰍹 ",
+            "keyColor": "magenta",
+        },
+        {
+            "type": "cpu",
+            "key": " ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "gpu",
+            "key": " ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "memory",
+            "key": " ",
+            "keyColor": "magenta"
+        },
+        "break",
+        {
+            "type": "disk",
+            "key": "󰋊 ",
+            "keyColor": "magenta",
+        },
+        "break",
+        {
+            "type": "command",
+            "shell": "/bin/sh",
+            "key": " ",
+            "text": "echo $(/home/zakky/.config/fastfetch/progress.sh) Days Done",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "command",
+            "shell": "/bin/sh",
+            "key": " ",
+            "text": "/home/zakky/.config/fastfetch/difference.sh",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "command",
+            "shell": "/bin/sh",
+            "key": "󰨱 ",
+            "text": "/home/zakky/.config/fastfetch/update.sh",
+            "keyColor": "magenta"
+        },
+        // {
+        //     "type": "command",
+        //     "shell": "/bin/sh",
+        //     "key": " ",
+        //     "text": "/home/zakky/.config/fastfetch/backup.sh",
+        //     "keyColor": "magenta"
+        // },
+      "break",
+    ]
+}

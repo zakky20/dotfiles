@@ -1,0 +1,137 @@
+{
+  "$schema": "/home/<username>/.config/fastfetch/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "height": 15,
+    "padding": {
+      "top": 5,
+    }
+  },
+
+    "display": {
+        "separator": "󰍴󰥭 ",
+        "color": {
+            "separator": "32"
+        },
+        "constants": [
+            "\u001b[34m───────────────────────────────────────────────────────",
+            "\u001b[34m│\u001b[55C│\u001b[55D"
+        ]
+    },
+
+    "modules": [
+        {
+            "format": "\u001b[37m{#34}{#keys}\u001b[34m╭{$1}╮\u001b[53D \u001b[4;34m\u001b[1mOperating System\u001b[0;90m\u001b[22m ",
+            "type": "title"
+        },
+        {
+            "key": "{$2}{#33}  {#37}Distro{#32} 󰍴󰍴󰍴󰍴",
+            "type": "os",
+            "format": "{pretty-name}"
+        },
+        {
+            "key": "{$2}{#33}  {#37}Kernel{#32} 󰍴󰍴󰍴󰍴",
+            "type": "kernel",
+        },
+        {
+            "key": "{$2}{#33}  {#37}Packages{#32} 󰍴󰍴",
+            "type": "packages"
+        },
+        // {
+        //     "key": "{$2}{#33}  {#37}Shell{#32} 󰍴󰍴󰍴󰍴󰍴",
+        //     "type": "shell"
+        // },
+        {
+            "format": "\u001b[34m{#1}{#keys}\u001b[34m╰{$1}╯",
+            "type": "custom"
+        },
+        "break",
+        {
+            "format": "\u001b[34m{#34}{#keys}\u001b[34m╭{$1}╮\u001b[53D \u001b[4;34m\u001b[1mBuild Specs\u001b[0;90m\u001b[22m ",
+            "type": "title"
+        },
+        // {
+        //     "key": "{$2}{#33}  {#37}Mbu{#32} 󰍴󰍴󰍴󰍴󰍴",
+        //     "type": "board",
+        //     "format": "{name}",
+        // },
+        {
+            "key": "{$2}{#33}  {#37}Cpu{#32} 󰍴󰍴󰍴󰍴󰍴",
+            "type": "cpu",
+            "format": "Intel i3-10100F",
+            "showPeCoreCount": true,
+        },
+        {
+            "key": "{$2}{#33}  {#37}Gpu{#32} 󰍴󰍴󰍴󰍴󰍴",
+            "type": "gpu",
+            "hideType": "integrated",
+            "format": "{vendor} {name}"
+        },
+        {
+            "key": "{$2}{#33}  {#37}Mem{#32} 󰍴󰍴󰍴󰍴󰍴",
+            "type": "memory",
+            // "format": "{total}",
+        },
+        {
+            "format": "\u001b[34m{#1}{#keys}\u001b[34m╰{$1}╯",
+            "type": "custom"
+        },
+        "break",
+        {
+            "format": "\u001b[34m{#34}{#keys}\u001b[34m╭{$1}╮\u001b[53D \u001b[4;34m\u001b[1mStorage\u001b[0;90m\u001b[22m ",
+            "type": "title"
+        },
+        {
+            "key": "{$2}{#33}  {#37}Disk{#32} 󰍴󰍴󰍴󰍴󰍴",
+            "type": "disk",
+        },
+        {
+            "format": "\u001b[34m{#1}{#keys}\u001b[34m╰{$1}╯",
+            "type": "custom"
+        },
+                "break",
+        {
+            "format": "\u001b[34m{#34}{#keys}\u001b[34m╭{$1}╮\u001b[53D \u001b[4;34m\u001b[1mDotfiles\u001b[0;90m\u001b[22m ",
+            "type": "title"
+        },
+        {
+            "key": "{$2}{#33}  {#37}Window Manager{#32} ",
+            "type": "wm",
+        },
+        // {
+        //     "key": "{$2}{#33}󰍂  {#37}Login Manager{#32} 󰍴",
+        //     "type": "lm",
+        // },
+        {
+            "key": "{$2}{#33}  {#37}Terminal{#32} 󰍴󰍴󰍴󰍴󰍴󰍴",
+            "type": "terminal"
+        },
+        {
+            "format": "\u001b[34m{#1}{#keys}\u001b[34m╰{$1}╯",
+            "type": "custom"
+        },
+        "break",
+        {
+            "format": "\u001b[34m{#34}{#keys}\u001b[34m╭{$1}╮\u001b[53D \u001b[4;34m\u001b[1mChallenge\u001b[0;90m\u001b[22m ",
+            "type": "title"
+        },
+        {
+            "key": "{$2}{#33}  {#37}Days Done{#32} 󰍴󰍴󰍴󰍴󰍴",
+            "type": "command",
+            "text": "echo $(/home/zak/.config/fastfetch/progress.sh) Days"
+        },
+        {
+            "key": "{$2}{#33}  {#37}Days left{#32} 󰍴󰍴󰍴󰍴󰍴",
+            "type": "command",
+            "text": "/home/zak/.config/fastfetch/difference.sh"
+        },
+        // {
+        //     "key": "{$2}{#33}  {#37}Uptime{#32} 󰍴󰍴󰍴󰍴",
+        //     "type": "uptime"
+        // },
+        {
+            "format": "\u001b[34m{#1}{#keys}\u001b[34m╰{$1}╯",
+            "type": "custom"
+        }
+    ]
+}
