@@ -1,0 +1,9 @@
+# work
+ClaudeAI :: https://claude.ai
+ChatGPT :: https://chatgpt.com
+Deepseek :: https://deepseek.com
+Github :: https://github.com
+Gitlab :: https://gitlab.com
+Arch Wiki :: https://wiki.archlinux.org/title/Main_page
+Arch Packages :: https://archlinux.org/packages/
+Wikipedia :: https://wikipedia.org
