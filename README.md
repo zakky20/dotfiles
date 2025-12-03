@@ -37,9 +37,9 @@ To get started with this setup, follow these steps:
 
 1. **Install Gentoo Or Other Distro**: If you haven't already installed a distro, follow the documentation from the distro's wiki for detailed instructions.
 
-2. **Clone the Repository**:
+> Note: Remember to install, using your distribution’s package manager, all packages available in this repository.
 
-> Note: Don't forget to install all the packages that are available here in the repo with the proper package manager your distro provides.
+2. **Clone the Repository**:
 
 	```bash
     git clone https://github.com/zakky20/dotfiles.git
