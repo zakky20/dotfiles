@@ -39,6 +39,8 @@ To get started with this setup, follow these steps:
 
 2. **Clone the Repository**:
 
+> Note: Don't forget to install all the packages that are available here in the repo with the proper package manager your distro provides.
+
 	```bash
     git clone https://github.com/zakky20/dotfiles.git
     cd dotfiles
