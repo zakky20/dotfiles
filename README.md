@@ -21,7 +21,7 @@ Welcome to my dotfiles built for efficiency and aesthetics.
 - Notifier: [Dunst](https://github.com/dunst-project/dunst)
 
 ### 🖥️ Development
-- Browser: [Zen]([https://www.firefox.com/en-US/](https://zen-browser.app/))
+- Browser: [Zen](https://zen-browser.app/)
 - Text Editor: [Emacs](https://www.gnu.org/software/emacs/)
 - TUI Commit Helper: [Lazygit](https://github.com/jesseduffield/lazygit)
 
