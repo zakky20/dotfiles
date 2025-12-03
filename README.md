@@ -1,4 +1,4 @@
-# 👾 Dotfiles
+# ⛩️ Dotfiles
 Welcome to my dotfiles built for efficiency and aesthetics.
 
 <img width="1920" height="1080" alt="2025-12-04_00-30" src="https://github.com/user-attachments/assets/87cc6c69-397e-45e1-86eb-5c1d7ef5235d" />
