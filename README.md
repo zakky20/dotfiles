@@ -44,7 +44,7 @@ To get started with this setup, follow these steps:
     cd dotfiles
     ```
 	
-3. ** Move the folders to `~/.config` **:
+3. **Move the folders to `~/.config`**:
 
     ```bash
     sudo mv * ~/.config/
