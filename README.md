@@ -10,6 +10,28 @@ Welcome to my dotfiles built for efficiency and aesthetics.
 - 🪟 **Qtile**: 10/10 Window manager for X11
 - 🌟 **Zsh + starship**: Efficient shell setup with lots of aliases and tweaks.
 
+## 🛠️ System
+
+- Kernel: [Gentoo Dist](https://wiki.gentoo.org/wiki/Handbook:Parts/Installation/Kernel/Dist-Kernel)
+- Window Manager: [Qtile](http://www.qtile.org)
+- Terminal Emulator: [Alacritty](https://alacritty.org/)
+- Shell: [Zsh](https://www.zsh.org/)
+- Compositor: [Picom](https://github.com/yshui/picom)
+- Notifier: [Dunst](https://github.com/dunst-project/dunst)
+
+### <samp>Dev</samp>
+
+- Browser: [Zen]([https://www.firefox.com/en-US/](https://zen-browser.app/))
+- Text Editor: [Emacs](https://www.gnu.org/software/emacs/)
+- TUI Commit Helper: [Lazygit](https://github.com/jesseduffield/lazygit)
+
+### <samp>Other Utilities</samp>
+
+- TUI File manager: [Yazi](https://yazi-rs.github.io/)
+- GUI File manager: [Thunar](https://docs.xfce.org/xfce/thunar/start)
+- Resource monitor: [Btop](https://github.com/aristocratos/btop)
+- screenshot tool: [Flameshot](https://flameshot.org)
+
 ## 🚀 Installation
 
 To get started with this setup, follow these steps:
