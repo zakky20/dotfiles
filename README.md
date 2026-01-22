@@ -22,7 +22,7 @@ To get started with this setup, follow these steps:
     cd dotfiles
     ```
 	
-1.5 **Delete the Portage folder if you don't use Gentoo!**
+1.5. **Delete the Portage folder if you don't use Gentoo!**
 
 	```bash
 	sudo rm -r portage
