@@ -7,7 +7,7 @@ Welcome to my Gentoo dotfiles built for efficiency and aesthetics.
 ## ✨ Features
 
 - 🎨 **TokyoNight Theme**: A perfect blend of vibrant colors.
-- 🪟 **Hyprland + Noctalia Shell**: 10/10 Compositor on Wayland.
+- 🪟 **Hyprland + Noctalia Shell**: 10/10 Compositor for Wayland and QuickShell config.
 - 🧇 **Tmux**: With my own options.
 - 🌟 **Zsh + PowerLevel10k**: Efficient shell setup with lots of aliases.
 
