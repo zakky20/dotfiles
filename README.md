@@ -22,13 +22,13 @@ To get started with this setup, follow these steps:
     cd dotfiles
     ```
 	
-1.5. **Delete the Portage folder if you don't use Gentoo!**
+2. **Delete the Portage folder if you don't use Gentoo!**
 
 	```bash
 	sudo rm -r portage
     ```
 
-2. **move everything to ~/.config**
+3. **move everything to ~/.config**
 
     ```bash
     sudo mv * ~/.config
