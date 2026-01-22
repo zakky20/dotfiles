@@ -21,7 +21,12 @@ To get started with this setup, follow these steps:
     git clone https://github.com/zakky20/dotfiles
     cd dotfiles
     ```
+	
 1.5 **Delete the Portage folder if you don't use Gentoo!**
+
+	```bash
+	sudo rm -r portage
+    ```
 
 2. **move everything to ~/.config**
 
