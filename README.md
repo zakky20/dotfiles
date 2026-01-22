@@ -1,6 +1,6 @@
 # 🛸 Gentoo Dotfiles
 
-Welcome to my Gentoo dotfiles built for efficiency and aesthetics. 
+- Welcome to my Gentoo dotfiles built for efficiency and aesthetics. 
 
 ![screenshot](./assets/screenshot1.png)
 
