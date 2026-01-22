@@ -1,6 +1,7 @@
 # 🛸 Gentoo Dotfiles
 
-- Welcome to my Gentoo dotfiles built for efficiency and aesthetics. 
+Welcome to my Gentoo dotfiles built for efficiency and aesthetics. 
+- Noctalia Shell: [Noctalia](https://noctalia.dev/)
 
 ![screenshot](./assets/screenshot1.png)
 
