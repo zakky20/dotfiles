@@ -1,0 +1,11 @@
+# work
+Gmail :: https://gmail.com 
+Google Photos :: https://photos.google.com
+Google Drive :: https://drive.google.com
+Google Translate :: https://translate.google.ro/
+ClaudeAI :: https://claude.ai
+ChatGPT :: https://chatgpt.com
+CodeBerg :: https://codeberg.org/
+Gentoo Wiki :: https://wiki.gentoo.org/wiki/Main_Page 
+Gentoo Packages :: https://packages.gentoo.org/
+Gentoo Flags :: https://packages.gentoo.org/useflags/search
