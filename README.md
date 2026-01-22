@@ -2,7 +2,7 @@
 
 Welcome to my Gentoo dotfiles built for efficiency and aesthetics. 
 
-![screenshot](./Pictures/Screenshots/screenshot1.png)
+![screenshot](./assets/screenshot1.png)
 
 ## ✨ Features
 
@@ -31,7 +31,7 @@ To get started with this setup, follow these steps:
 
 ## 😎 Enjoy!
 
-![screenshot](./Pictures/Screenshots/screenshot2.png)
+![screenshot](./assets/screenshot2.png)
 
 ## 🤝 Contributions
 
