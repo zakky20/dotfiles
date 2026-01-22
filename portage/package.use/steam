@@ -1,0 +1,411 @@
+app-accessibility/at-spi2-core  abi_x86_32
+app-arch/bzip2                  abi_x86_32
+app-arch/lz4                    abi_x86_32
+app-arch/zstd                   abi_x86_32
+dev-db/sqlite                   abi_x86_32
+dev-lang/rust-bin               abi_x86_32
+dev-libs/dbus-glib              abi_x86_32
+dev-libs/elfutils               abi_x86_32
+dev-libs/expat                  abi_x86_32
+dev-libs/fribidi                abi_x86_32
+dev-libs/glib                   abi_x86_32
+dev-libs/gmp                    abi_x86_32
+dev-libs/icu                    abi_x86_32
+dev-libs/json-glib              abi_x86_32
+dev-libs/libevdev               abi_x86_32
+dev-libs/libffi                 abi_x86_32
+dev-libs/libgcrypt              abi_x86_32
+dev-libs/libgpg-error           abi_x86_32
+dev-libs/libgudev               abi_x86_32
+dev-libs/libgusb                abi_x86_32
+dev-libs/libpcre2               abi_x86_32
+dev-libs/libtasn1               abi_x86_32
+dev-libs/libunistring           abi_x86_32
+dev-libs/libusb                 abi_x86_32
+dev-libs/libxml2                abi_x86_32
+dev-libs/lzo                    abi_x86_32
+dev-libs/nettle                 abi_x86_32
+dev-libs/nspr                   abi_x86_32
+dev-libs/nss                    abi_x86_32
+dev-libs/openssl                abi_x86_32
+dev-libs/wayland                abi_x86_32
+dev-util/spirv-tools            abi_x86_32
+dev-util/sysprof-capture        abi_x86_32
+gnome-base/librsvg              abi_x86_32
+gui-libs/libdecor               abi_x86_32
+llvm-core/clang                 abi_x86_32
+llvm-core/llvm                  abi_x86_32
+media-gfx/graphite2             abi_x86_32
+media-libs/alsa-lib             abi_x86_32
+media-libs/flac                 abi_x86_32
+media-libs/fontconfig           abi_x86_32
+media-libs/freetype             abi_x86_32
+media-libs/glu                  abi_x86_32
+media-libs/harfbuzz             abi_x86_32
+media-libs/lcms                 abi_x86_32
+media-libs/libepoxy             abi_x86_32
+media-libs/libglvnd             abi_x86_32
+media-libs/libjpeg-turbo        abi_x86_32
+media-libs/libogg               abi_x86_32
+media-libs/libpng               abi_x86_32
+media-libs/libpulse             abi_x86_32
+media-libs/libsdl2              abi_x86_32
+media-libs/libsndfile           abi_x86_32
+media-libs/libva                abi_x86_32
+media-libs/libvorbis            abi_x86_32
+media-libs/mesa                 abi_x86_32
+media-libs/openal               abi_x86_32
+media-libs/opus                 abi_x86_32
+media-libs/tiff                 abi_x86_32
+media-sound/lame                abi_x86_32
+media-sound/mpg123-base         abi_x86_32
+media-video/pipewire            abi_x86_32
+net-dns/c-ares                  abi_x86_32
+net-dns/libidn2                 abi_x86_32
+net-libs/gnutls                 abi_x86_32
+net-libs/libasyncns             abi_x86_32
+net-libs/libndp                 abi_x86_32
+net-libs/libpsl                 abi_x86_32
+net-libs/nghttp2                abi_x86_32
+net-libs/nghttp3                abi_x86_32
+net-misc/curl                   abi_x86_32
+net-misc/networkmanager         abi_x86_32
+net-print/cups                  abi_x86_32
+sys-apps/dbus                   abi_x86_32
+sys-apps/systemd                abi_x86_32
+sys-apps/systemd-utils          abi_x86_32
+sys-apps/util-linux             abi_x86_32
+sys-libs/gdbm                   abi_x86_32
+sys-libs/gpm                    abi_x86_32
+sys-libs/libcap                 abi_x86_32
+sys-libs/libudev-compat         abi_x86_32
+sys-libs/ncurses                abi_x86_32
+sys-libs/pam                    abi_x86_32
+sys-libs/readline               abi_x86_32
+sys-libs/zlib                   abi_x86_32
+virtual/glu                     abi_x86_32
+virtual/libelf                  abi_x86_32
+virtual/libiconv                abi_x86_32
+virtual/libintl                 abi_x86_32
+virtual/libudev                 abi_x86_32
+virtual/libusb                  abi_x86_32
+virtual/opengl                  abi_x86_32
+virtual/rust                    abi_x86_32
+x11-libs/cairo                  abi_x86_32
+x11-libs/extest                 abi_x86_32
+x11-libs/gdk-pixbuf             abi_x86_32
+x11-libs/gtk+                   abi_x86_32
+x11-libs/gtk+                   abi_x86_32
+x11-libs/libdrm                 abi_x86_32
+x11-libs/libICE                 abi_x86_32
+x11-libs/libpciaccess           abi_x86_32
+x11-libs/libSM                  abi_x86_32
+x11-libs/libvdpau               abi_x86_32
+x11-libs/libX11                 abi_x86_32
+x11-libs/libXau                 abi_x86_32
+x11-libs/libxcb                 abi_x86_32
+x11-libs/libXcomposite          abi_x86_32
+x11-libs/libXcursor             abi_x86_32
+x11-libs/libXdamage             abi_x86_32
+x11-libs/libXdmcp               abi_x86_32
+x11-libs/libXext                abi_x86_32
+x11-libs/libXfixes              abi_x86_32
+x11-libs/libXft                 abi_x86_32
+x11-libs/libXi                  abi_x86_32
+x11-libs/libXinerama            abi_x86_32
+x11-libs/libxkbcommon           abi_x86_32
+x11-libs/libXrandr              abi_x86_32
+x11-libs/libXrender             abi_x86_32
+x11-libs/libXScrnSaver          abi_x86_32
+x11-libs/libxshmfence           abi_x86_32
+x11-libs/libXtst                abi_x86_32
+x11-libs/libXxf86vm             abi_x86_32
+x11-libs/pango                  abi_x86_32
+x11-libs/pixman                 abi_x86_32
+x11-libs/xcb-util-keysyms       abi_x86_32
+x11-misc/colord                 abi_x86_32
+app-arch/xz-utils               abi_x86_32
+app-crypt/p11-kit               abi_x86_32
+gui-libs/egl-gbm                abi_x86_32
+gui-libs/egl-wayland            abi_x86_32
+gui-libs/egl-x11                abi_x86_32
+x11-drivers/nvidia-drivers      abi_x86_32
+# required by media-plugins/gst-plugins-libav-1.24.11::gentoo
+# required by app-emulation/wine-proton-10.0.3::gentoo[gstreamer]
+# required by wine-proton (argument)
+>=media-video/ffmpeg-7.1.3 opus vpx abi_x86_32
+# required by app-editors/emacs-30.2-r1::gentoo[jit]
+# required by app-emacs/emacs-daemon-0.26::gentoo
+# required by app-emacs/emacs-daemon (argument)
+>=sys-devel/gcc-15.2.1_p20251122 jit
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pyside-6.10.1-r5 uitools
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[vulkan]
+# required by games-util/steam-launcher (argument)
+>=media-libs/vulkan-loader-1.4.328.0-r1 abi_x86_32
+# required by media-libs/gst-plugins-bad-1.24.11::gentoo
+# required by media-plugins/gst-plugins-faad-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[aac]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/gst-plugins-base-1.24.11-r1 abi_x86_32
+# required by media-plugins/gst-plugins-dvdread-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/gstreamer-1.24.11 abi_x86_32
+# required by app-emulation/wine-proton-10.0.3::gentoo[unwind,-llvm-libunwind]
+# required by wine-proton (argument)
+>=sys-libs/libunwind-1.8.2-r1 abi_x86_32
+# required by media-plugins/gst-plugins-faad-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[aac]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/gst-plugins-bad-1.24.11 abi_x86_32
+# required by app-emulation/wine-proton-10.0.3::gentoo[gstreamer]
+# required by wine-proton (argument)
+>=media-plugins/gst-plugins-libav-1.24.11 abi_x86_32
+# required by app-emulation/wine-proton-10.0.3::gentoo[gstreamer]
+# required by wine-proton (argument)
+>=media-plugins/gst-plugins-meta-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/gst-plugins-good-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[a52,dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-a52dec-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[aac]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-faad-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dts]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-dts-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-dvdread-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/gst-plugins-ugly-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-dvdread-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[-vcd,mpeg,dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-mpeg2dec-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-resindvd-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[flac]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-flac-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[mp3]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-mpg123-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[pulseaudio]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-pulse-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[x264]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-x264-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-x264-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[x264]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/x264-0.0.20240513 abi_x86_32
+# required by media-plugins/gst-plugins-resindvd-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/libdvdnav-6.1.1 abi_x86_32
+# required by media-libs/libdvdnav-6.1.1::gentoo
+# required by media-plugins/gst-plugins-resindvd-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/libdvdread-6.1.3 abi_x86_32
+# required by media-libs/libdvdread-6.1.3::gentoo[css]
+# required by media-plugins/gst-plugins-dvdread-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/libdvdcss-1.4.3 abi_x86_32
+# required by media-plugins/gst-plugins-mpeg2dec-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[-vcd,mpeg,dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/libmpeg2-0.5.1-r3 abi_x86_32
+# required by media-plugins/gst-plugins-dts-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dts]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/libdca-0.0.7 abi_x86_32
+# required by media-plugins/gst-plugins-dts-1.24.11::gentoo[orc]
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[dts]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=dev-lang/orc-0.4.41 abi_x86_32
+# required by media-plugins/gst-plugins-faad-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[aac]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/faad2-2.11.2 abi_x86_32
+# required by media-plugins/gst-plugins-a52dec-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[a52,dvd]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/a52dec-0.7.4-r9 abi_x86_32
+# required by media-libs/gst-plugins-base-1.24.11-r1::gentoo[X]
+# required by media-plugins/gst-plugins-cdparanoia-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=x11-libs/libXv-1.0.13 abi_x86_32
+# required by media-libs/gst-plugins-base-1.24.11-r1::gentoo[opengl,gles2]
+# required by media-plugins/gst-plugins-cdparanoia-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/graphene-1.10.8-r1 abi_x86_32
+# required by media-libs/tiff-4.7.0-r1::gentoo[webp]
+# required by x11-libs/gdk-pixbuf-2.42.12::gentoo[tiff]
+# required by gnome-base/gnome-desktop-44.4-r400::gentoo
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-libs/libwebp-1.6.0 abi_x86_32
+# required by dev-libs/libayatana-appindicator-0.5.94::gentoo
+# required by media-sound/spotify-1.2.77::gentoo
+# required by spotify (argument)
+>=dev-libs/libdbusmenu-16.04.0-r4 gtk3
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[video_cards_nvidia,vulkan]
+# required by games-util/steam-launcher (argument)
+>=media-libs/vulkan-layers-1.4.328.0 abi_x86_32
+# required by media-libs/vulkan-layers-1.4.328.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[video_cards_nvidia,vulkan]
+# required by games-util/steam-launcher (argument)
+>=dev-util/glslang-1.4.328.0-r1 abi_x86_32
+# required by media-libs/vulkan-layers-1.4.328.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r2::steam-overlay[video_cards_nvidia,vulkan]
+# required by games-util/steam-launcher (argument)
+>=dev-util/vulkan-utility-libraries-1.4.328.0 abi_x86_32
+# required by virtual/minizip-1.3.1::gentoo[-static-libs]
+# required by dev-libs/quazip-1.4-r1::gentoo
+# required by games-action/prismlauncher-9.4-r1::gentoo
+# required by prismlauncher (argument)
+>=sys-libs/zlib-1.3.1-r1 minizip
+# required by media-libs/mesa-25.2.8::gentoo
+# required by media-libs/gst-plugins-base-1.24.11-r1::gentoo[opengl,gles2]
+# required by media-plugins/gst-plugins-cdparanoia-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=virtual/zlib-1.3.1-r1 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-plugins/gst-plugins-cdparanoia-1.24.11 abi_x86_32
+# required by media-plugins/gst-plugins-cdparanoia-1.24.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.24.11::gentoo[cdda]
+# required by app-misc/localsearch-3.8.2::gentoo[gstreamer]
+# required by app-misc/tinysparql-3.8.2::gentoo[localsearch]
+# required by gnome-base/nautilus-48.4.1-r1::gentoo
+# required by gnome-extra/sushi-46.0::gentoo
+>=media-sound/cdparanoia-3.10.2-r8 abi_x86_32
+# required by media-video/ffmpeg-7.1.3::gentoo[dav1d]
+# required by media-video/mpv-0.41.0::gentoo
+# required by mpv (argument)
+>=media-libs/dav1d-1.5.0 abi_x86_32
+# required by media-video/ffmpeg-7.1.3::gentoo[jpegxl]
+# required by media-video/mpv-0.41.0::gentoo
+# required by mpv (argument)
+>=media-libs/libjxl-0.11.1 abi_x86_32
+# required by media-video/ffmpeg-7.1.3::gentoo[libass]
+# required by media-video/mpv-0.41.0::gentoo
+# required by mpv (argument)
+>=media-libs/libass-0.17.4 abi_x86_32
+# required by media-video/ffmpeg-7.1.3::gentoo[vpx]
+# required by media-video/mpv-0.41.0::gentoo
+# required by mpv (argument)
+>=media-libs/libvpx-1.15.2 abi_x86_32
+# required by media-video/ffmpeg-7.1.3::gentoo[xvid]
+# required by media-video/mpv-0.41.0::gentoo
+# required by mpv (argument)
+>=media-libs/xvid-1.3.7-r2 abi_x86_32
+# required by media-libs/libjxl-0.11.1::gentoo
+# required by media-gfx/gimp-3.0.6::gentoo[jpegxl]
+# required by gimp (argument)
+>=app-arch/brotli-1.1.0 abi_x86_32
+# required by media-libs/libjxl-0.11.1::gentoo
+# required by media-gfx/gimp-3.0.6::gentoo[jpegxl]
+# required by gimp (argument)
+>=dev-cpp/highway-1.3.0 abi_x86_32
+# required by media-libs/libjxl-0.11.1::gentoo[gif]
+# required by media-gfx/gimp-3.0.6::gentoo[jpegxl]
+# required by gimp (argument)
+>=media-libs/giflib-5.2.2 abi_x86_32
