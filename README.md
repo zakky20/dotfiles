@@ -19,13 +19,12 @@ To get started with this setup, follow these steps:
 
 	```bash
     git clone https://github.com/zakky20/dotfiles
-    cd nixos-config-reborn
+    cd dotfiles
     ```
 
-2. **Go into the cloned directory and move everything to ~/.config**
+2. **move everything to ~/.config**
 
     ```bash
-    cd dotfiles
     sudo mv * ~/.config
     ```
 
